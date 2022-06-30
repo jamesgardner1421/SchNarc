@@ -5,7 +5,7 @@ import os
 import subprocess
 from ase import Atoms
 from ase import neighborlist
-from collections import Iterable
+from collections.abc import Iterable
 import schnarc
 from schnetpack import Properties
 from schnetpack.environment import SimpleEnvironmentProvider, collect_atom_triples
